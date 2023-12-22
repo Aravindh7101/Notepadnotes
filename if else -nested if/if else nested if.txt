@@ -1,0 +1,38 @@
+package hello;
+
+public class hello {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = 10;
+		int b = 20;
+		int c = 25;
+		
+		if(a>b) {
+			System.out.println(" a is greater than b");
+		}
+		if(b>a) {
+			System.out.println("b is greater dhan a");
+		}
+	
+//		 if (a>c) {
+//			System.out.println("a is greatre than c");
+//		 }
+//			else if(c>a) {
+//				System.out.println("c is greater dhan a");
+//			}
+//		 if(c<b) {
+//			 System.out.println("c is less dhan b");
+//		}
+//		 else if(c<a) {
+//			 System.out.println("c is less dhan a");
+//		 }
+		
+		else if(a<c) {
+			System.out.println("a is less dhan c");
+		}
+	else{
+			System.out.println("");
+		}
+	}
+}

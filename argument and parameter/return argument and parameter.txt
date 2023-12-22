@@ -1,0 +1,18 @@
+package hello;
+
+public class hello {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		hello word = new hello();
+		int result = word.name(5,5);   ///arguments or i/p parameter passind 
+		System.out.println(result);
+
+	} 
+	int name(int a, int b){   ///(container )   ///method signature 
+		int c = a+b;
+		System.out.print(c);
+		return c;
+	}
+
+}

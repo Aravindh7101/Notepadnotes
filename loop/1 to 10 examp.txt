@@ -1,0 +1,19 @@
+package hello;
+
+public class hello {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int count=0;   //value is 0 
+		//int no=0;
+		while(count<=10){
+			System.out.println(count);
+			count=count+1;
+			//0>10  0<10
+			//no=no+1;
+			//count=count+1;
+		}
+		//System.out.print(count);
+	}
+}

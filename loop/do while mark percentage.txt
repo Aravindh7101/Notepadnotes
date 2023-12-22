@@ -1,0 +1,20 @@
+package hello;
+
+public class hello {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int count = 0;
+		int mark = 0;
+		int percentage;
+		
+		do{
+			mark = 96;
+			count = count+1;
+			System.out.println(count);
+		}while(count<6);
+		percentage=mark/6;
+		System.out.println(percentage);
+	}
+}

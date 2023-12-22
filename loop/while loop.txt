@@ -1,0 +1,18 @@
+package hello;
+
+public class hello {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int count = 0;
+		int total =0;
+		while(count<5)
+		{
+			int mark=95;
+			total=total+mark;  // 0+95= 95 now total is 95
+			count=count+1;     // 0+1 = 1 now count is 1
+			System.out.println(total);
+			//System.out.println(count);
+		}
+	}
+}

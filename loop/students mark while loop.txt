@@ -1,0 +1,33 @@
+package hello;
+
+import java.util.*;
+
+public class hello {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int no = 0;
+		int total;
+		float average;
+
+		while (no < 2) {
+			Scanner sc = new Scanner(System.in);
+			System.out.println("enter your mark ");
+			System.out.println("Enter your tamil mark");
+			int tamil = sc.nextInt();
+			System.out.println("Enter your english mark");
+			int english = sc.nextInt();
+			System.out.println("Enter your english mark");
+			int maths = sc.nextInt();
+			System.out.println("Enter your english mark");
+			int science = sc.nextInt();
+			total = tamil + english+maths+science;
+			average = total%5;
+			System.out.println(total);
+			System.out.println(average);
+		}
+		no++;
+
+	}
+}

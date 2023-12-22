@@ -1,0 +1,33 @@
+package hello;
+
+public class hello {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// find the largest 3 number using nested if statement
+		int a = 15;
+		int b = 20;
+		int c = 40;
+		int largest;
+		
+		if(a>=b) {
+			if(a>=c) {
+				largest=a;
+			}
+			else {
+				largest=c;
+			}
+		}
+		else {
+			if(b>=c) {
+				largest=b;
+			}
+			else {
+				largest=c;
+			}
+			
+		}
+		System.out.println("largest : "+ largest);
+
+	}
+}

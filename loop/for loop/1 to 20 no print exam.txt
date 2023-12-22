@@ -1,0 +1,19 @@
+package hello;
+
+import java.util.*;
+
+public class hello {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// print 20 till
+		
+		for(int no =20; no>=1;no--) {
+			
+			System.out.print(" "+no);
+		}
+	
+
+	}
+}
